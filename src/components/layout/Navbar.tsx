@@ -5,7 +5,9 @@ import { cn } from "@/lib/utils"
 import { Menu, X } from "lucide-react"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import LogoImage from "@/assets/logo.png"  // Assuming the logo is added to the assets folder
+
+// Using a placeholder image URL instead of the direct import
+const logoPlaceholder = "/placeholder.svg"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -39,7 +41,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-4 text-xl md:text-2xl font-bold text-primary z-10">
             <img 
-              src={LogoImage} 
+              src={logoPlaceholder} 
               alt="School Logo" 
               className="h-12 w-12 object-contain"
             />
