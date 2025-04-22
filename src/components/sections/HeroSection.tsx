@@ -2,8 +2,8 @@
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 
-// Using a placeholder image URL instead of the direct import
-const logoPlaceholder = "/placeholder.svg"
+// Import the actual logo
+import LogoImage from "/public/lovable-uploads/c769aba4-b026-4468-9efd-ac53566d6e66.png"
 
 const HeroSection = () => {
   return (
@@ -17,7 +17,7 @@ const HeroSection = () => {
         <div className="max-w-3xl space-y-8">
           <div className="flex items-center space-x-6">
             <img 
-              src={logoPlaceholder} 
+              src={LogoImage} 
               alt="School Logo" 
               className="h-24 w-24 object-contain"
             />

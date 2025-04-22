@@ -6,8 +6,8 @@ import { Menu, X } from "lucide-react"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 
-// Using a placeholder image URL instead of the direct import
-const logoPlaceholder = "/placeholder.svg"
+// Import the actual logo
+import LogoImage from "/public/lovable-uploads/c769aba4-b026-4468-9efd-ac53566d6e66.png"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-4 text-xl md:text-2xl font-bold text-primary z-10">
             <img 
-              src={logoPlaceholder} 
+              src={LogoImage} 
               alt="School Logo" 
               className="h-12 w-12 object-contain"
             />
