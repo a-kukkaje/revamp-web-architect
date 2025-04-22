@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
+import LogoImage from "@/assets/logo.png"  // Assuming the logo is added to the assets folder
 
 const HeroSection = () => {
   return (
@@ -12,23 +13,24 @@ const HeroSection = () => {
     >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl space-y-8">
-          <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold text-primary">
-              Shri Sathya Sai Vidya Kendra
-            </h1>
-            <div className="h-1 w-32 bg-primary rounded-full"></div>
+          <div className="flex items-center space-x-6">
+            <img 
+              src={LogoImage} 
+              alt="School Logo" 
+              className="h-24 w-24 object-contain"
+            />
           </div>
-          <p className="text-xl md:text-2xl text-gray-700 font-medium">
+          <p className="text-xl md:text-2xl text-black font-medium">
             Nurturing Excellence Through Value-Based Education
           </p>
-          <p className="text-lg md:text-xl text-gray-600">
+          <p className="text-lg md:text-xl text-gray-800">
             A premier residential school providing holistic education that blends academic excellence with spiritual wisdom and cultural values.
           </p>
           <p className="text-base md:text-lg text-primary/80 font-medium">
             Located in Chokkady, Sullia Taluk, Dakshina Kannada, Karnataka
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
-            <Button asChild size="lg" className="text-lg shadow-lg">
+            <Button asChild size="lg" className="text-lg shadow-lg bg-primary text-white hover:bg-primary/90">
               <Link to="/admissions">Apply Now</Link>
             </Button>
             <Button variant="outline" asChild size="lg" className="text-lg shadow-sm">

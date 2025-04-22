@@ -2,9 +2,10 @@
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu"
 import { Link, useLocation } from "react-router-dom"
 import { cn } from "@/lib/utils"
-import { School, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
+import LogoImage from "@/assets/logo.png"  // Assuming the logo is added to the assets folder
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -36,8 +37,12 @@ const Navbar = () => {
     )}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 text-xl md:text-2xl font-bold text-primary z-10">
-            <School className="h-6 w-6" />
+          <Link to="/" className="flex items-center gap-4 text-xl md:text-2xl font-bold text-primary z-10">
+            <img 
+              src={LogoImage} 
+              alt="School Logo" 
+              className="h-12 w-12 object-contain"
+            />
             SSVK Chokkady
           </Link>
           
