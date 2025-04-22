@@ -30,28 +30,34 @@ const MissionSection = () => {
             </CardContent>
           </Card>
 
-          <Card className="text-center border-t-4 border-t-primary">
-            <CardContent className="pt-8">
-              <h3 className="text-xl font-bold mb-4 text-black">Mission</h3>
-              <p className="italic text-black font-medium mb-4">
+          <Card className="text-center border-t-4 border-t-primary shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="pt-8 px-6">
+              <div className="bg-primary/10 w-16 h-16 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0m9-4.5v9"/></svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-black">Mission</h3>
+              <p className="italic text-black font-medium mb-4 text-lg">
                 "Love All, Serve All" | "Help Ever, Hurt Never"
               </p>
-              <p className="text-black">
+              <p className="text-black leading-relaxed">
                 To provide inclusive education fostering universal human values regardless of 
                 caste, religion, or socioeconomic status.
               </p>
             </CardContent>
           </Card>
 
-          <Card className="text-center border-t-4 border-t-primary">
-            <CardContent className="pt-8">
-              <h3 className="text-xl font-bold mb-4 text-black">Core Values</h3>
-              <ul className="space-y-2 text-black text-left">
-                <li>• Sathya (Truth)</li>
-                <li>• Dharma (Righteousness)</li>
-                <li>• Shanti (Peace)</li>
-                <li>• Prema (Love)</li>
-                <li>• Ahimsa (Non-Violence)</li>
+          <Card className="text-center border-t-4 border-t-primary shadow-lg hover:shadow-xl transition-shadow">
+            <CardContent className="pt-8 px-6">
+              <div className="bg-primary/10 w-16 h-16 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+              </div>
+              <h3 className="text-2xl font-bold mb-4 text-black">Core Values</h3>
+              <ul className="space-y-3 text-black text-center">
+                <li>Sathya (Truth)</li>
+                <li>Dharma (Righteousness)</li>
+                <li>Shanti (Peace)</li>
+                <li>Prema (Love)</li>
+                <li>Ahimsa (Non-Violence)</li>
               </ul>
             </CardContent>
           </Card>
