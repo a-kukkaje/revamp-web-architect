@@ -1,4 +1,3 @@
-
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu"
 import { Link, useLocation } from "react-router-dom"
 import { cn } from "@/lib/utils"
@@ -39,11 +38,11 @@ const Navbar = () => {
     )}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-4 text-xl md:text-2xl font-bold text-primary z-10">
+          <Link to="/" className="flex items-center gap-4 text-xl md:text-2xl font-bold text-black z-10">
             <img 
               src={LogoImage} 
               alt="School Logo" 
-              className="h-12 w-12 object-contain"
+              className="h-20 w-20 object-contain"
             />
             SSVK Chokkady
           </Link>

@@ -2,9 +2,6 @@
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 
-// Import the actual logo
-import LogoImage from "/public/lovable-uploads/c769aba4-b026-4468-9efd-ac53566d6e66.png"
-
 const HeroSection = () => {
   return (
     <div 
@@ -15,20 +12,13 @@ const HeroSection = () => {
     >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl space-y-8">
-          <div className="flex items-center space-x-6">
-            <img 
-              src={LogoImage} 
-              alt="School Logo" 
-              className="h-24 w-24 object-contain"
-            />
-          </div>
           <p className="text-xl md:text-2xl text-black font-medium">
             Nurturing Excellence Through Value-Based Education
           </p>
-          <p className="text-lg md:text-xl text-gray-800">
+          <p className="text-lg md:text-xl text-black">
             A premier residential school providing holistic education that blends academic excellence with spiritual wisdom and cultural values.
           </p>
-          <p className="text-base md:text-lg text-primary/80 font-medium">
+          <p className="text-base md:text-lg text-black font-medium">
             Located in Chokkady, Sullia Taluk, Dakshina Kannada, Karnataka
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
