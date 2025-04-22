@@ -40,14 +40,14 @@ const GallerySection = () => {
   ]
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16">
       <div className="container mx-auto px-4">
         <Tabs defaultValue="campus" className="max-w-5xl mx-auto">
-          <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="campus">Campus Life</TabsTrigger>
-            <TabsTrigger value="spiritual">Spiritual Activities</TabsTrigger>
-            <TabsTrigger value="cultural">Cultural Events</TabsTrigger>
-            <TabsTrigger value="academic">Academics</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-4 mb-8">
+            <TabsTrigger value="campus" className="text-sm md:text-base">Campus Life</TabsTrigger>
+            <TabsTrigger value="spiritual" className="text-sm md:text-base">Spiritual Activities</TabsTrigger>
+            <TabsTrigger value="cultural" className="text-sm md:text-base">Cultural Events</TabsTrigger>
+            <TabsTrigger value="academic" className="text-sm md:text-base">Academics</TabsTrigger>
           </TabsList>
           
           {[
@@ -57,15 +57,15 @@ const GallerySection = () => {
             { value: "academic", images: academicImages, title: "Academic Activities" }
           ].map((gallery) => (
             <TabsContent key={gallery.value} value={gallery.value} className="mt-8">
-              <h3 className="text-xl font-bold mb-6 text-center text-primary">{gallery.title}</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <h3 className="text-2xl font-bold mb-8 text-center text-primary">{gallery.title}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {gallery.images.map((src, idx) => (
-                  <div key={idx} className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white">
+                  <div key={idx} className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-white">
                     <AspectRatio ratio={4/3}>
                       <img 
                         src={src} 
                         alt={`${gallery.title} image ${idx+1}`} 
-                        className="object-cover w-full h-full transition-transform hover:scale-105 duration-300"
+                        className="object-cover w-full h-full transition-transform group-hover:scale-105 duration-300"
                       />
                     </AspectRatio>
                   </div>
