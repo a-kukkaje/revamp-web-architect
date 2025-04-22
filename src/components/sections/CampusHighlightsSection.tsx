@@ -1,5 +1,6 @@
 
 import ImageCarousel from "./ImageCarousel"
+import { MapPin, School, Book } from "lucide-react"
 
 const CampusHighlightsSection = () => {
   const campusImages = [
@@ -14,6 +15,14 @@ const CampusHighlightsSection = () => {
     {
       src: "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac",
       alt: "Campus wildlife and nature"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1498079022511-d15614cb1c02",
+      alt: "School building"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1576495199011-eb94736d05d6",
+      alt: "School playground"
     }
   ]
 
@@ -25,15 +34,24 @@ const CampusHighlightsSection = () => {
           <ImageCarousel images={campusImages} />
         </div>
         <div className="grid md:grid-cols-3 gap-8 text-center max-w-4xl mx-auto">
-          <div>
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+              <MapPin className="h-6 w-6 text-primary" />
+            </div>
             <h3 className="font-semibold mb-2">Natural Setting</h3>
             <p className="text-gray-600">Nestled in the serene hills of Dakshina Kannada</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+              <School className="h-6 w-6 text-primary" />
+            </div>
             <h3 className="font-semibold mb-2">Modern Facilities</h3>
             <p className="text-gray-600">Smart classrooms and well-equipped laboratories</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+              <Book className="h-6 w-6 text-primary" />
+            </div>
             <h3 className="font-semibold mb-2">Spiritual Growth</h3>
             <p className="text-gray-600">On-campus Mandir for daily prayers and meditation</p>
           </div>
