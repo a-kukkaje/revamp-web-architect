@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
-import LogoImage from "@/assets/logo.png"  // Assuming the logo is added to the assets folder
+import LogoImage from "@/assets/logo.png"
 
 const HeroSection = () => {
   return (

@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 220 33% 98%;
-    --foreground: 220 64% 24%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
     
     --card: 0 0% 100%;
-    --card-foreground: 220 64% 24%;
+    --card-foreground: 240 10% 3.9%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 220 64% 24%;
+    --popover-foreground: 240 10% 3.9%;
     
-    --primary: 220 64% 34%;
+    --primary: 221 83% 25%;
     --primary-foreground: 210 40% 98%;
     
     --secondary: 220 20% 96%;
-    --secondary-foreground: 220 64% 34%;
+    --secondary-foreground: 221 83% 25%;
     
     --muted: 220 20% 92%;
     --muted-foreground: 220 20% 46%;
     
-    --accent: 220 64% 34%;
+    --accent: 221 83% 25%;
     --accent-foreground: 210 40% 98%;
     
     --destructive: 0 84.2% 60.2%;
@@ -30,7 +30,7 @@
     
     --border: 220 20% 90%;
     --input: 220 20% 90%;
-    --ring: 220 64% 34%;
+    --ring: 221 83% 25%;
     --radius: 0.75rem;
   }
 
@@ -81,7 +81,6 @@
   }
 }
 
-/* Custom styles for enhanced visuals */
 @layer components {
   .hero-gradient {
     @apply bg-gradient-to-r from-primary/90 to-primary/70;
