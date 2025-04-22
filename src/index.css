@@ -1,38 +1,37 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 220 64% 34%;
+    --background: 220 33% 98%;
+    --foreground: 220 64% 24%;
     
     --card: 0 0% 100%;
-    --card-foreground: 220 64% 34%;
+    --card-foreground: 220 64% 24%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 220 64% 34%;
+    --popover-foreground: 220 64% 24%;
     
     --primary: 220 64% 34%;
     --primary-foreground: 210 40% 98%;
     
-    --secondary: 220 20% 92%;
+    --secondary: 220 20% 96%;
     --secondary-foreground: 220 64% 34%;
     
     --muted: 220 20% 92%;
     --muted-foreground: 220 20% 46%;
     
-    --accent: 220 20% 92%;
-    --accent-foreground: 220 64% 34%;
+    --accent: 220 64% 34%;
+    --accent-foreground: 210 40% 98%;
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
     --ring: 220 64% 34%;
-    --radius: 0.5rem;
+    --radius: 0.75rem;
   }
 
   .dark {
@@ -78,6 +77,21 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+/* Custom styles for enhanced visuals */
+@layer components {
+  .hero-gradient {
+    @apply bg-gradient-to-r from-primary/90 to-primary/70;
+  }
+  
+  .section-padding {
+    @apply py-20 px-6 md:px-12 lg:px-24;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
   }
 }
