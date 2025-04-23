@@ -1,13 +1,14 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --background: 0 0% 100%; /* White */
+    --foreground: 240 10% 3.9%; /* Nearly black text */
     
-    --card: 0 0% 100%;
+    --card: 0 0% 100%; /* White card */
     --card-foreground: 240 10% 3.9%;
     
     --popover: 0 0% 100%;
@@ -28,8 +29,8 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     
-    --border: 220 20% 90%;
-    --input: 220 20% 90%;
+    --border: 222 11% 91%; /* Light gray for outlines */
+    --input: 222 11% 91%;
     --ring: 221 83% 25%;
     --radius: 0.75rem;
   }
@@ -83,7 +84,7 @@
 
 @layer components {
   .hero-gradient {
-    @apply bg-gradient-to-r from-primary/90 to-primary/70;
+    @apply bg-white;
   }
   
   .section-padding {

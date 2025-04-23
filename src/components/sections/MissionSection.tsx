@@ -1,10 +1,12 @@
 
 import { Card, CardContent } from "@/components/ui/card"
-import { CircleCheck, SquarePlus, SquareChevronDown } from "lucide-react"
+import { Check, Plus, ArrowDown } from "lucide-react"
+
+const iconStyles = "rounded-full p-3 mb-6 w-16 h-16 flex items-center justify-center mx-auto shadow-sm"
 
 const MissionSection = () => {
   return (
-    <section className="py-24 bg-gradient-to-b from-[#fdfcfb] to-[#e2d1c3]">
+    <section className="py-24 bg-white border-b">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl font-bold mb-6 text-black">Our Vision and Mission</h2>
@@ -16,10 +18,10 @@ const MissionSection = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {/* Vision Card */}
-          <Card className="text-center shadow-xl border-0 bg-gradient-to-br from-[#E5DEFF] via-[#FEF7CD] to-[#FDE1D3] hover:scale-105 transition-transform">
+          <Card className="text-center border bg-white hover:shadow-xl hover:scale-105 transition-transform">
             <CardContent className="pt-10 px-7 pb-8">
-              <div className="bg-[#9b87f5]/20 mb-6 w-16 h-16 rounded-full mx-auto flex flex-col items-center justify-center shadow-lg">
-                <CircleCheck size={32} className="text-primary" strokeWidth={2.5} />
+              <div className={`${iconStyles} bg-[#E5DEFF]`}>
+                <Check size={32} className="text-white" style={{background:"#7c3aed", borderRadius:"50%"}} />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-black">Vision</h3>
               <p className="italic text-black font-medium mb-4 text-lg">
@@ -32,10 +34,10 @@ const MissionSection = () => {
           </Card>
 
           {/* Mission Card */}
-          <Card className="text-center shadow-xl border-0 bg-gradient-to-br from-[#FEC6A1] via-[#D3E4FD] to-[#F2FCE2] hover:scale-105 transition-transform">
+          <Card className="text-center border bg-white hover:shadow-xl hover:scale-105 transition-transform">
             <CardContent className="pt-10 px-7 pb-8">
-              <div className="bg-[#F97316]/20 mb-6 w-16 h-16 rounded-full mx-auto flex flex-col items-center justify-center shadow-lg">
-                <SquarePlus size={32} className="text-primary" strokeWidth={2.5} />
+              <div className={`${iconStyles} bg-[#FEC6A1]`}>
+                <Plus size={32} className="text-white" style={{background:"#f97316", borderRadius:"50%"}} />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-black">Mission</h3>
               <p className="italic text-black font-medium mb-4 text-lg">
@@ -49,10 +51,10 @@ const MissionSection = () => {
           </Card>
 
           {/* Core Values Card */}
-          <Card className="text-center shadow-xl border-0 bg-gradient-to-br from-[#FFDEE2] via-[#E5DEFF] to-[#D6BCFA] hover:scale-105 transition-transform">
+          <Card className="text-center border bg-white hover:shadow-xl hover:scale-105 transition-transform">
             <CardContent className="pt-10 px-7 pb-8">
-              <div className="bg-[#D946EF]/20 mb-6 w-16 h-16 rounded-full mx-auto flex flex-col items-center justify-center shadow-lg">
-                <SquareChevronDown size={32} className="text-primary" strokeWidth={2.5} />
+              <div className={`${iconStyles} bg-[#FFD1E3]`}>
+                <ArrowDown size={32} className="text-white" style={{background:"#d946ef", borderRadius:"50%"}} />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-black">Core Values</h3>
               <ul className="space-y-3 text-black text-center text-lg font-medium">
@@ -71,3 +73,4 @@ const MissionSection = () => {
 }
 
 export default MissionSection
+
