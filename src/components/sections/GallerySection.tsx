@@ -40,10 +40,10 @@ const GallerySection = () => {
   ]
 
   return (
-    <section className="py-16">
+    <section className="py-16 bg-[#FAF3E6]">
       <div className="container mx-auto px-4">
         <Tabs defaultValue="campus" className="max-w-5xl mx-auto">
-          <TabsList className="grid w-full grid-cols-4 mb-8">
+          <TabsList className="grid w-full grid-cols-4 mb-8 bg-[#E5DEFF] rounded-lg">
             <TabsTrigger value="campus" className="text-sm md:text-base">Campus Life</TabsTrigger>
             <TabsTrigger value="spiritual" className="text-sm md:text-base">Spiritual Activities</TabsTrigger>
             <TabsTrigger value="cultural" className="text-sm md:text-base">Cultural Events</TabsTrigger>
