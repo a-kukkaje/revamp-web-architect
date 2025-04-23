@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -43,7 +44,7 @@ const ContactFormSection = () => {
   }
 
   return (
-    <section className="py-16 bg-[#E5DEFF]">
+    <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
@@ -53,7 +54,7 @@ const ContactFormSection = () => {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-lg shadow-sm border">
+          <form onSubmit={handleSubmit} className="space-y-6 bg-white p-8 rounded-lg shadow-sm">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label htmlFor="name" className="text-sm font-medium">

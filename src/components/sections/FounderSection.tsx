@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const FounderSection = () => {
   return (
-    <section className="py-16 bg-[#FFDEE2]">
+    <section className="py-16">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Spiritual Legacy</h2>
@@ -39,10 +39,10 @@ const FounderSection = () => {
           </div>
         </div>
 
-        <div className="bg-[#FAF3E6] rounded-xl p-8">
+        <div className="bg-gray-50 rounded-xl p-8">
           <h3 className="text-2xl font-bold mb-8 text-center">Our Core Principles</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <Card style={{background: "#FDF5E6"}}>
+            <Card>
               <CardContent className="pt-6">
                 <h4 className="text-lg font-semibold mb-3 text-center">Educare</h4>
                 <p className="text-gray-600">
@@ -51,7 +51,7 @@ const FounderSection = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card style={{background: "#E5DEFF"}}>
+            <Card>
               <CardContent className="pt-6">
                 <h4 className="text-lg font-semibold mb-3 text-center">Head, Heart & Hands</h4>
                 <p className="text-gray-600">
@@ -60,7 +60,7 @@ const FounderSection = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card style={{background: "#FDE1D3"}}>
+            <Card>
               <CardContent className="pt-6">
                 <h4 className="text-lg font-semibold mb-3 text-center">Unity of Faiths</h4>
                 <p className="text-gray-600">

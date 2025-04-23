@@ -39,7 +39,7 @@ const AchievementsSection = () => {
   ]
 
   return (
-    <section className="py-16 bg-[#D3E4FD]">
+    <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl font-bold mb-4">Student Achievements</h2>
@@ -48,9 +48,9 @@ const AchievementsSection = () => {
           </p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-sm mb-12 border">
+        <div className="bg-white p-6 rounded-lg shadow-sm mb-12">
           <div className="flex items-center justify-center gap-2 mb-6">
-            <Award className="h-6 w-6 text-white rounded-full p-1" style={{background:'#F97316'}} />
+            <Award className="h-6 w-6 text-primary" />
             <h3 className="text-2xl font-bold">10th Board Exam Results</h3>
           </div>
           <Table>
@@ -81,7 +81,7 @@ const AchievementsSection = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <Star className="h-6 w-6 text-white rounded-full p-1" style={{background:'#9b87f5'}} />
+              <Star className="h-6 w-6 text-primary" />
               <h3 className="text-2xl font-bold">Notable Achievements</h3>
             </div>
             <div className="space-y-6">
