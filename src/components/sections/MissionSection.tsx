@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card"
 import { Check, Plus, ArrowDown } from "lucide-react"
 
@@ -17,11 +16,10 @@ const MissionSection = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Vision Card */}
-          <Card className="text-center border bg-white hover:shadow-xl hover:scale-105 transition-transform">
+          <Card className="text-center border hover:shadow-xl hover:scale-105 transition-transform">
             <CardContent className="pt-10 px-7 pb-8">
-              <div className={`${iconStyles} bg-[#E5DEFF]`}>
-                <Check size={32} className="text-white" style={{background:"#7c3aed", borderRadius:"50%"}} />
+              <div className={`${iconStyles} bg-[#7c3aed]`}>
+                <Check className="h-8 w-8 text-white fill-current" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-black">Vision</h3>
               <p className="italic text-black font-medium mb-4 text-lg">
@@ -33,11 +31,10 @@ const MissionSection = () => {
             </CardContent>
           </Card>
 
-          {/* Mission Card */}
-          <Card className="text-center border bg-white hover:shadow-xl hover:scale-105 transition-transform">
+          <Card className="text-center border hover:shadow-xl hover:scale-105 transition-transform">
             <CardContent className="pt-10 px-7 pb-8">
-              <div className={`${iconStyles} bg-[#FEC6A1]`}>
-                <Plus size={32} className="text-white" style={{background:"#f97316", borderRadius:"50%"}} />
+              <div className={`${iconStyles} bg-[#f97316]`}>
+                <Plus className="h-8 w-8 text-white fill-current" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-black">Mission</h3>
               <p className="italic text-black font-medium mb-4 text-lg">
@@ -50,11 +47,10 @@ const MissionSection = () => {
             </CardContent>
           </Card>
 
-          {/* Core Values Card */}
-          <Card className="text-center border bg-white hover:shadow-xl hover:scale-105 transition-transform">
+          <Card className="text-center border hover:shadow-xl hover:scale-105 transition-transform">
             <CardContent className="pt-10 px-7 pb-8">
-              <div className={`${iconStyles} bg-[#FFD1E3]`}>
-                <ArrowDown size={32} className="text-white" style={{background:"#d946ef", borderRadius:"50%"}} />
+              <div className={`${iconStyles} bg-[#d946ef]`}>
+                <ArrowDown className="h-8 w-8 text-white fill-current" />
               </div>
               <h3 className="text-2xl font-bold mb-4 text-black">Core Values</h3>
               <ul className="space-y-3 text-black text-center text-lg font-medium">
@@ -73,4 +69,3 @@ const MissionSection = () => {
 }
 
 export default MissionSection
-

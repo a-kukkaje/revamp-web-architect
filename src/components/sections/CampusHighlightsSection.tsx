@@ -35,22 +35,22 @@ const CampusHighlightsSection = () => {
         </div>
         <div className="grid md:grid-cols-3 gap-8 text-center max-w-4xl mx-auto">
           <div className="flex flex-col items-center">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-              <MapPin className="h-6 w-6 text-primary" />
+            <div className="w-12 h-12 rounded-full bg-[#FEC6A1] flex items-center justify-center mb-4">
+              <MapPin className="h-6 w-6 text-white fill-current" />
             </div>
             <h3 className="font-semibold mb-2">Natural Setting</h3>
             <p className="text-gray-600">Nestled in the serene hills of Dakshina Kannada</p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-              <School className="h-6 w-6 text-primary" />
+            <div className="w-12 h-12 rounded-full bg-[#E5DEFF] flex items-center justify-center mb-4">
+              <School className="h-6 w-6 text-white fill-current" />
             </div>
             <h3 className="font-semibold mb-2">Modern Facilities</h3>
             <p className="text-gray-600">Smart classrooms and well-equipped laboratories</p>
           </div>
           <div className="flex flex-col items-center">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-              <Book className="h-6 w-6 text-primary" />
+            <div className="w-12 h-12 rounded-full bg-[#FFD1E3] flex items-center justify-center mb-4">
+              <Book className="h-6 w-6 text-white fill-current" />
             </div>
             <h3 className="font-semibold mb-2">Spiritual Growth</h3>
             <p className="text-gray-600">On-campus Mandir for daily prayers and meditation</p>
