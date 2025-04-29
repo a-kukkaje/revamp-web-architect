@@ -15,7 +15,7 @@ const FounderSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1473177104440-ffee2f376098" 
+              src="../../src/assets/swami.png" 
               alt="School foundation ceremony" 
               className="rounded-lg shadow-lg"
             />
