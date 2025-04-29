@@ -16,7 +16,7 @@ const FounderSection = () => {
           <div>
             <img 
               src="../../src/assets/Swami.png" 
-              alt="School foundation ceremony" 
+              alt="Swami" 
               className="rounded-lg shadow-lg"
             />
           </div>
