@@ -1,8 +1,10 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import primaryImage from '../../assets/5th_Std.JPG'
-import middleImage from '../../assets/6th.JPG'
-import highImage from '../../assets/10th.JPG'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+
+// ✅ Correctly import images
+import primaryImage from '../../assets/5th_Std.JPG';
+import middleImage from '../../assets/6th.JPG';
+import highImage from '../../assets/10th.JPG';
 
 const AcademicProgramsSection = () => {
   return (
@@ -21,7 +23,7 @@ const AcademicProgramsSection = () => {
             <TabsTrigger value="middle">Middle School</TabsTrigger>
             <TabsTrigger value="high">High School</TabsTrigger>
           </TabsList>
-          
+
           <TabsContent value="primary" className="mt-6">
             <Card>
               <CardHeader>
@@ -42,7 +44,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src={primaryImage} 
+                    src={primaryImage}
                     alt="Primary classroom" 
                     className="w-full h-64 object-cover"
                   />
@@ -50,7 +52,7 @@ const AcademicProgramsSection = () => {
               </CardContent>
             </Card>
           </TabsContent>
-          
+
           <TabsContent value="middle" className="mt-6">
             <Card>
               <CardHeader>
@@ -71,7 +73,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src={middleImage} 
+                    src={middleImage}
                     alt="Middle school classroom" 
                     className="w-full h-64 object-cover"
                   />
@@ -79,7 +81,7 @@ const AcademicProgramsSection = () => {
               </CardContent>
             </Card>
           </TabsContent>
-          
+
           <TabsContent value="high" className="mt-6">
             <Card>
               <CardHeader>
@@ -100,7 +102,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src={highImage} 
+                    src={highImage}
                     alt="High school students" 
                     className="w-full h-64 object-cover"
                   />
@@ -114,4 +116,4 @@ const AcademicProgramsSection = () => {
   )
 }
 
-export default AcademicProgramsSection
+export default AcademicProgramsSection;
