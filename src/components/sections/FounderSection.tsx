@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card"
+import swamiImage from '../../assets/Swami.png';
 
 const FounderSection = () => {
   return (
@@ -15,7 +16,7 @@ const FounderSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img 
-              src="../../assets/Swami.png" 
+              src={swamiImage}
               alt="Swami" 
               className="rounded-lg shadow-lg"
             />
