@@ -23,7 +23,7 @@ const AcademicProgramsSection = () => {
           <TabsContent value="primary" className="mt-6">
             <Card>
               <CardHeader>
-                <CardTitle>Primary School (Classes 1-5)</CardTitle>
+                <CardTitle>Primary School (Classe 5)</CardTitle>
                 <CardDescription>Building a strong foundation</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -40,7 +40,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" 
+                    src="../../src/assets/5th_Std.JPG" 
                     alt="Primary classroom" 
                     className="w-full h-64 object-cover"
                   />
@@ -52,7 +52,7 @@ const AcademicProgramsSection = () => {
           <TabsContent value="middle" className="mt-6">
             <Card>
               <CardHeader>
-                <CardTitle>Middle School (Classes 6-8)</CardTitle>
+                <CardTitle>Middle School (Classes 6-7)</CardTitle>
                 <CardDescription>Expanding horizons</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -69,7 +69,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45" 
+                    src="../../src/assets/6th.JPG" 
                     alt="Middle school classroom" 
                     className="w-full h-64 object-cover"
                   />
@@ -81,7 +81,7 @@ const AcademicProgramsSection = () => {
           <TabsContent value="high" className="mt-6">
             <Card>
               <CardHeader>
-                <CardTitle>High School (Classes 9-10)</CardTitle>
+                <CardTitle>High School (Classes 8-10)</CardTitle>
                 <CardDescription>Preparing for excellence</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -98,7 +98,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src="https://images.unsplash.com/photo-1523580494863-6f3031224c94" 
+                    src="../../src/assets/10th.JPG" 
                     alt="High school students" 
                     className="w-full h-64 object-cover"
                   />
