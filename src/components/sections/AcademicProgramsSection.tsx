@@ -1,6 +1,8 @@
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import primaryImage from '../../assets/5th_Std.JPG'
+import middleImage from '../../assets/6th.JPG'
+import highImage from '../../assets/10th.JPG'
 
 const AcademicProgramsSection = () => {
   return (
@@ -40,7 +42,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src="../../src/assets/5th_Std.JPG" 
+                    src={primaryImage} 
                     alt="Primary classroom" 
                     className="w-full h-64 object-cover"
                   />
@@ -69,7 +71,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src="../../src/assets/6th.JPG" 
+                    src={middleImage} 
                     alt="Middle school classroom" 
                     className="w-full h-64 object-cover"
                   />
@@ -98,7 +100,7 @@ const AcademicProgramsSection = () => {
                 </ul>
                 <div className="rounded-lg overflow-hidden mt-4">
                   <img 
-                    src="../../src/assets/10th.JPG" 
+                    src={highImage} 
                     alt="High school students" 
                     className="w-full h-64 object-cover"
                   />
