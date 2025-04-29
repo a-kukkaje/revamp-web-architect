@@ -1,13 +1,14 @@
 
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
+import heroImage from 'main/src/assets/SSVK_Chokkady.jpg'; 
 
 const HeroSection = () => {
   return (
     <div 
       className="relative min-h-[90vh] flex items-center bg-cover bg-center"
       style={{
-        backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.8)), url('/assets/SSVK_Chokkady.jpg')`,
+        backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.8)), url(${heroImage})`,
       }}
     >
       <div className="container mx-auto px-4">
