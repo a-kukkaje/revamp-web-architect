@@ -23,7 +23,7 @@ const AcademicProgramsSection = () => {
           <TabsContent value="primary" className="mt-6">
             <Card>
               <CardHeader>
-                <CardTitle>Primary School (Classe 5)</CardTitle>
+                <CardTitle>Primary School (Class 5)</CardTitle>
                 <CardDescription>Building a strong foundation</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
