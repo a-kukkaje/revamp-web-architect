@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card"
 import swamiImage from '../../assets/Swami.png';
 
@@ -14,7 +13,7 @@ const FounderSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div>
+          <div className="pl-[20px]"> {/* Added padding-left */}
             <img 
               src={swamiImage}
               alt="Swami" 
