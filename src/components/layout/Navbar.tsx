@@ -98,12 +98,7 @@ const Navbar = () => {
                 src={LogoImage}
                 alt="School Logo"
                 className="h-10 md:h-12 w-auto object-contain"
-              />
-              <div className="flex flex-col">
-                <span className="font-bold text-lg md:text-xl text-black leading-tight">
-                  SSVK Chokkady
-                </span>
-              </div>
+              />              
             </Link>
 
             {/* Desktop Navigation */}
