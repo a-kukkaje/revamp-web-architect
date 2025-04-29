@@ -5,23 +5,23 @@ import { MapPin, School, Book } from "lucide-react"
 const CampusHighlightsSection = () => {
   const campusImages = [
     {
-      src: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
-      alt: "Serene campus surroundings with pine trees"
+      src: "../../src/assets/Mandira.jpg",
+      alt: "mandira"
     },
     {
-      src: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86",
+      src: "../../src/assets/photoframe.jpg",
       alt: "Natural learning environment"
     },
     {
-      src: "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac",
+      src: "../../src/assets/Mandira.jpg",
       alt: "Campus wildlife and nature"
     },
     {
-      src: "https://images.unsplash.com/photo-1498079022511-d15614cb1c02",
+      src: "../../src/assets/Mandira.jpg",
       alt: "School building"
     },
     {
-      src: "https://images.unsplash.com/photo-1576495199011-eb94736d05d6",
+      src: "../../src/assets/Mandira.jpg",
       alt: "School playground"
     }
   ]
