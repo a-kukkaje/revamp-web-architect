@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
-import heroImage from '/main/src/assets/SSVK_Chokkady.jpg'; 
+import heroImage from '../../assets/SSVK_Chokkady.jpg'; 
 
 const HeroSection = () => {
   return (
