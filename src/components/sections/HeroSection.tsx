@@ -19,7 +19,7 @@ const HeroSection = () => {
             A premier residential school providing holistic education that blends academic excellence with spiritual wisdom and cultural values.
           </p>
           <p className="text-base md:text-lg text-black font-medium">
-            Located in Chokkady, Sullia Taluk, Dakshina Kannada, Karnataka
+            Located at Chokkady in Sullia taluk, Dakshina Kannada district, Karnataka
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <Button asChild size="lg" className="text-lg shadow-lg bg-primary text-white hover:bg-primary/90">
