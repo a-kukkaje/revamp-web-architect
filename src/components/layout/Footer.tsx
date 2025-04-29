@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2 text-xl font-bold">
               <School className="h-6 w-6" />
-              <span>SSVK Chokkady</span>
+              <span>Bhagawan Shri Sathya Sai Vidya Kendra Chokkady</span>
             </Link>
             <p className="text-sm">
               A value-based residential school providing spiritual, academic, and cultural education in a serene natural setting.
@@ -106,7 +106,7 @@ const Footer = () => {
 
         <div className="text-center text-sm">
           <p>© {new Date().getFullYear()} Shri Sathya Sai Vidya Kendra, Chokkady. All rights reserved.</p>
-          <p className="mt-1">Managed by: Bhagawan Shri Sathya Sai Seva Trust</p>
+          <p className="mt-1">Managed by: Bhagawan Shri Sathya Sai Vidya Kendra Chokkady</p>
         </div>
       </div>
     </footer>
